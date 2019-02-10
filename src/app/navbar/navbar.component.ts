@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
 })
 export class NavbarComponent implements OnInit {
   backgroundColor = environment.navBarBackgroundColor;
-  
+
   constructor() { }
 
   ngOnInit() {
